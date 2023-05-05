@@ -49,14 +49,20 @@ const About = () => {
             variant={fadeIn("", "", 0.1, 1)}
          >
             I am a highly skilled and experienced Staff Frontend Engineer with
-            expertise in modern frontend technologies, such as React
-            (Typescript), and a keen eye for thoughtful design and end-user
-            experience. I have a proven track record of designing, building, and
-            shipping new products and features for large-scale modern web
-            applications, as well as optimizing web vitals to improve
-            performance. I am a collaborative and communicative team player who
-            thrives in dynamic and challenging environments, and I am passionate
-            about modernizing insurance through innovative software solutions.
+            expertise in modern frontend technologies, including React
+            (Typescript), Node.js, and RESTful APIs. I have a proven track
+            record of designing, building, and shipping new products and
+            features for large-scale web applications, as well as optimizing web
+            vitals to improve performance. My experience includes working
+            collaboratively with back-end developers to ensure seamless
+            integration of front-end and back-end components. I also have strong
+            skills in debugging, testing, and troubleshooting to ensure optimal
+            performance and user experience. Additionally, I have experience
+            with tools such as Mocha, Chai, Git, GitHub Heroku, Vercel, and
+            Agile methodologies like Jira and Trello. I am a collaborative and
+            communicative team player who thrives in dynamic and challenging
+            environments, and I am passionate about modernizing the insurance
+            industry through innovative software solutions.
          </motion.p>
 
          <div className="mt-20 flex flex-wrap gap-10">
