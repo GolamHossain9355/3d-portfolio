@@ -2,7 +2,7 @@
 import { motion } from "framer-motion"
 
 import { styles } from "../styles"
-import { github, demo } from "../assets"
+import { github } from "../assets"
 import { SectionWrapper } from "../hoc"
 import { projects } from "../constants"
 import { fadeIn, textVariant } from "../utils/motion"
@@ -17,6 +17,12 @@ const ProjectCard = ({
    source_code_link,
    demo_link,
 }) => {
+   const colors = ['blue-text-gradient', 'green-text-gradient', 'pink-text-gradient', 'orange-text-gradient'];
+   const pattern = Array.from(
+      { length: tags.length },
+      (_, index) => colors[index % colors.length]
+   );
+
    return (
       <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
          <Tilt
@@ -53,16 +59,16 @@ const ProjectCard = ({
                <p className="mt-2 text-secondary text-[14px]">{description}</p>
                <div
                   onClick={() => window.open(demo_link, "_blank")}
-                  className="bg-tertiary py-3 px-8 outline-none cursor-pointer self-center mt-1
+                  className="bg-tertiary py-3 px-8 outline-none cursor-pointer self-center mt-5
                    text-purple-100 font-gold shadow-md shadow-primary rounded-xl text-center w-fit"
                >
-                  Visit
+                  Live Demo
                </div>
             </div>
 
             <div className="mt-4 flex flex-wrap gap-2">
-               {tags.map((tag) => (
-                  <p className={`text-[14px] ${tag.color}`} key={tag.name}>
+               {tags.map((tag, index) => (
+                  <p className={`text-[14px] ${pattern[index % pattern.length]}`} key={tag.name}>
                      #{tag.name}
                   </p>
                ))}
@@ -91,7 +97,7 @@ const Works = () => {
             </motion.p>
          </div>
 
-         <div className="mt-20 flex flex-wrap gap-7">
+         <div className="mt-20 flex flex-wrap gap-7 justify-center items-start lg:justify-start">
             {projects.map((project, index) => (
                <ProjectCard
                   key={`project-${index}`}

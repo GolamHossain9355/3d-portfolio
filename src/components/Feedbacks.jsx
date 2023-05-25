@@ -62,7 +62,7 @@ const Feedbacks = () => {
          </div>
 
          <div
-            className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7`}
+            className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7 justify-center items-start lg:justify-start`}
          >
             {testimonials.map((testimonial, index) => (
                <FeedbackCard
@@ -76,6 +76,6 @@ const Feedbacks = () => {
    )
 }
 
-const WrappedFeedbacks = () => SectionWrapper(Feedbacks, "feedbacks")()
+const WrappedFeedbacks = () => SectionWrapper(Feedbacks, "testimonials")()
 
 export default WrappedFeedbacks
