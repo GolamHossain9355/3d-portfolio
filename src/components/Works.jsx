@@ -6,7 +6,6 @@ import { github } from "../assets"
 import { SectionWrapper } from "../hoc"
 import { projects } from "../constants"
 import { fadeIn, textVariant } from "../utils/motion"
-import { Tilt } from "react-tilt"
 
 const ProjectCard = ({
    index,
@@ -24,57 +23,54 @@ const ProjectCard = ({
    );
 
    return (
-      <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-         <Tilt
-            className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
-            options={{
-               max: 45,
-               scale: 1,
-               speed: 450,
-            }}
-         >
-            <div className="relative w-full h-[230px]">
-               <img
-                  className="w-full h-full object-cover rounded-2xl"
-                  src={image}
-                  alt={name}
-               />
-               <div className="absolute inset-0 flex justify-end m-3 card-img_hover gap-1">
-                  <div
-                     className="black-gradient w-10 h-10 rounded-full flex 
-                     justify-center items-center cursor-pointer"
-                     onClick={() => window.open(source_code_link, "_blank")}
-                  >
-                     <img
-                        className="w-1/2 h-1/2 object-contain"
-                        src={github}
-                        alt="github"
-                     />
-                  </div>
-               </div>
-            </div>
-
-            <div className="mt-5 flex flex-col">
-               <h3 className="text-white font-bold text-[24px]">{name}</h3>
-               <p className="mt-2 text-secondary text-[14px]">{description}</p>
+      <motion.div
+         className="bg-tertiary p-5 rounded-2xl sm:max-w-[360px] w-full flex-grow"
+         variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+      >
+         <div className="relative w-full h-[230px]">
+            <img
+               className="w-full h-full object-cover rounded-2xl"
+               src={image}
+               alt={name}
+            />
+            <div className="absolute inset-0 flex justify-end m-3 card-img_hover gap-1">
                <div
-                  onClick={() => window.open(demo_link, "_blank")}
-                  className="bg-tertiary py-3 px-8 outline-none cursor-pointer self-center mt-5
-                   text-purple-100 font-gold shadow-md shadow-primary rounded-xl text-center w-fit"
+                  className="black-gradient w-10 h-10 rounded-full flex 
+                     justify-center items-center cursor-pointer"
+                  onClick={() => window.open(source_code_link, "_blank")}
                >
-                  Live Demo
+                  <img
+                     className="w-1/2 h-1/2 object-contain"
+                     src={github}
+                     alt="github"
+                  />
                </div>
             </div>
+         </div>
 
-            <div className="mt-4 flex flex-wrap gap-2">
-               {tags.map((tag, index) => (
-                  <p className={`text-[14px] ${pattern[index % pattern.length]}`} key={tag.name}>
-                     #{tag.name}
-                  </p>
-               ))}
+         <div className="mt-5 flex flex-col">
+            <h3 className="text-white font-bold text-[24px] text-center capitalize">{name}</h3>
+            <p className="mt-2 text-secondary text-[14px]">{description}</p>
+         </div>
+
+         <div className="mt-4 flex flex-wrap gap-2">
+            {tags.map((tag, index) => (
+               <p className={`text-[14px] capitalize ${pattern[index % pattern.length]}`} key={tag}>
+                  #{tag}
+               </p>
+            ))}
+            <div
+               onClick={() => window.open(demo_link, "_blank")}
+               className="bg-tertiary py-3 px-8 outline-none cursor-pointer w-full mt-2 
+                   text-purple-300 font-gold shadow-md shadow-primary rounded-xl text-center border-x-2
+                    border-y-2 border-y-tertiary border-purple-950 hover:border-y-purple-950"
+            >
+               Live Demo
             </div>
-         </Tilt>
+         </div>
+
       </motion.div>
+
    )
 }
 
@@ -97,7 +93,7 @@ const Works = () => {
             </motion.p>
          </div>
 
-         <div className="mt-20 flex flex-wrap gap-7 justify-center items-start lg:justify-start">
+         <div className="mt-20 flex flex-wrap gap-7 justify-center items-stretch lg:justify-start">
             {projects.map((project, index) => (
                <ProjectCard
                   key={`project-${index}`}

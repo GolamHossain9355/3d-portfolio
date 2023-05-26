@@ -16,7 +16,7 @@ import html from "./tech/html.png"
 import javascript from "./tech/javascript.png"
 import mongodb from "./tech/mongodb.png"
 import nodejs from "./tech/nodejs.png"
-import reactjs from "./tech/reactjs.png"
+import reactJS from "./tech/reactjs.png"
 import redux from "./tech/redux.png"
 import tailwind from "./tech/tailwind.png"
 import typescript from "./tech/typescript.png"
@@ -35,6 +35,9 @@ import postman from "./tech/postman.png"
 import vercel from "./tech/vercel.png"
 import tanStackQuery from "./tech/tanStack-query.svg"
 import restApi from "./tech/rest-api.png"
+import threeJS from "./tech/threejs.svg"
+import nextJS from "./tech/nextjs.png"
+import nextAuth from "./tech/nextauth.png"
 
 // companies
 import meta from "./company/meta.png"
@@ -42,10 +45,16 @@ import shopify from "./company/shopify.png"
 import anthropy from "./company/logo-small.svg"
 import thinkful from "./company/thinkful.png"
 
-import resReservation from "./res-reservation.png"
-import flashCard from "./flashcard.png"
+import resReservation from "./projectImages/res-reservation.png"
+import flashCard from "./projectImages/flashcard.png"
+import gpt3 from "./projectImages/gpt3.png"
+import restaurantLanding from "./projectImages/restaurant-landing.png"
+import amazona from "./projectImages/amazona.png"
 
 export {
+   amazona,
+   restaurantLanding,
+   gpt3,
    logo,
    backend,
    creator,
@@ -63,13 +72,16 @@ export {
    javascript,
    mongodb,
    nodejs,
-   reactjs,
+   reactJS,
+   nextJS,
+   nextAuth,
    redux,
    tailwind,
    typescript,
    bootstrap,
    chai,
    cyclic,
+   threeJS,
    express,
    firebase,
    heroku,

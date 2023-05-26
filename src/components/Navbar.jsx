@@ -22,11 +22,11 @@ const Navbar = () => {
                }}
             >
                <img className="w-9 h-9 object-contain" src={logo} alt="logo" />
-               <p className="text-white text-[18px] font-bold cursor-pointer">
+               <p className="text-white text-[18px] font-bold cursor-pointer min-w-max">
                   Golam Hossain
                </p>
             </Link>
-            <ul className="list-none hidden sm:flex flex-row gap-10">
+            <ul className="list-none hidden lg:flex flex-row gap-10">
                {navLinks.map((link) => (
                   <li
                      className={`${active === link.title ? "text-white" : "text-secondary"
@@ -39,7 +39,7 @@ const Navbar = () => {
                ))}
             </ul>
 
-            <div className="sm:hidden flex flex-1 justify-end items-center">
+            <div className="lg:hidden flex flex-1 justify-end items-center">
                <img
                   className="w-[28px] h-[28px] object-contain cursor-pointer"
                   src={toggle ? close : menu}

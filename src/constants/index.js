@@ -1,4 +1,13 @@
 import {
+   nextJS,
+   heroku,
+   mocha,
+   express,
+   postman,
+   reactJS,
+   restApi,
+   threeJS,
+   vercel,
    mobile,
    backend,
    creator,
@@ -6,25 +15,11 @@ import {
    javascript,
    typescript,
    bootstrap,
-   // chai,
-   // cyclic,
-   // express,
-   // firebase,
-   // heroku,
-   // knex,
-   // mocha,
-   // nodeScheduler,
-   // paypal,
-   // postman,
-   // vercel,
-   // restApi,
-   // figma,
-   // docker,
+   nodeScheduler,
    postgresql,
    tanStackQuery,
    html,
    css,
-   reactjs,
    redux,
    tailwind,
    nodejs,
@@ -34,6 +29,17 @@ import {
    anthropy,
    flashCard,
    resReservation,
+   figma,
+   docker,
+   chai,
+   firebase,
+   knex,
+   paypal,
+   cyclic,
+   nextAuth,
+   gpt3,
+   restaurantLanding,
+   amazona,
 } from "../assets"
 
 export const navLinks = [
@@ -101,7 +107,15 @@ const technologies = [
    },
    {
       name: "React JS",
-      icon: reactjs,
+      icon: reactJS,
+   },
+   {
+      name: "nextJS",
+      icon: nextJS,
+   },
+   {
+      name: "nextAuth.JS",
+      icon: nextAuth,
    },
    {
       name: "TanStack Query",
@@ -132,34 +146,70 @@ const technologies = [
       icon: postgresql,
    },
    {
-      name: "git",
+      name: "Git",
       icon: git,
    },
-   // {
-   //    name: "figma",
-   //    icon: figma,
-   // },
-   // {
-   //    name: "docker",
-   //    icon: docker,
-   // },
+   {
+      name: "figma",
+      icon: figma,
+   },
+   {
+      name: "Docker",
+      icon: docker,
+   },
 
-   // {
-   //    name: "Chai",
-   //    icon: chai,
-   // },
-   // {
-   //    name: "Firebase",
-   //    icon: firebase,
-   // },
-   // {
-   //    name: "Knex",
-   //    icon: knex,
-   // },
-   // {
-   //    name: "Paypal",
-   //    icon: paypal,
-   // },
+   {
+      name: "Chai",
+      icon: chai,
+   },
+   {
+      name: "Firebase",
+      icon: firebase,
+   },
+   {
+      name: "Knex",
+      icon: knex,
+   },
+   {
+      name: "Paypal",
+      icon: paypal,
+   },
+   {
+      name: "cyclic",
+      icon: cyclic,
+   },
+   {
+      name: "express",
+      icon: express,
+   },
+   {
+      name: "heroku",
+      icon: heroku,
+   },
+   {
+      name: "vercel",
+      icon: vercel,
+   },
+   {
+      name: "mocha",
+      icon: mocha,
+   },
+   {
+      name: "postman",
+      icon: postman,
+   },
+   {
+      name: "rest api",
+      icon: restApi,
+   },
+   {
+      name: "threeJS",
+      icon: threeJS,
+   },
+   {
+      name: "node scheduler",
+      icon: nodeScheduler,
+   },
 ]
 
 const experiences = [
@@ -206,22 +256,60 @@ const experiences = [
 
 const projects = [
    {
+      name: "amazona",
+      description:
+         "I developed the GPT3 app as a showcase of my exceptional CSS skills and proficiency in frontend development. With a focus on creating visually stunning and responsive website pages, the app demonstrates my ability to craft captivating user interfaces with a wide range of components. By seamlessly integrating beautiful designs and seamless interactions, the app highlights my talent for creating engaging and immersive user experiences. Through meticulous attention to detail and a deep understanding of CSS, I have established myself as a frontend developer capable of delivering visually impressive and highly functional websites.",
+      tags: [
+         "nextJS",
+         "nextAuth.JS",
+         "javascript",
+         "HTML",
+         "tailwind",
+         "nodeJS",
+         "mongoDB",
+         "paypal",
+         "vercel",
+      ],
+      image: amazona,
+      source_code_link: "https://github.com/GolamHossain9355/amazona.git",
+      demo_link: "https://amazona-amber.vercel.app/",
+   },
+   {
+      name: "GPT3",
+      description:
+         "I developed the GPT3 app as a showcase of my exceptional CSS skills and proficiency in frontend development. With a focus on creating visually stunning and responsive website pages, the app demonstrates my ability to craft captivating user interfaces with a wide range of components. By seamlessly integrating beautiful designs and seamless interactions, the app highlights my talent for creating engaging and immersive user experiences. Through meticulous attention to detail and a deep understanding of CSS, I have established myself as a frontend developer capable of delivering visually impressive and highly functional websites.",
+      tags: ["react", "javascript", "HTML", "CSS", "vercel"],
+      image: gpt3,
+      source_code_link: "https://github.com/GolamHossain9355/gpt3_hossain.git",
+      demo_link: "https://gpt3-hossain.vercel.app/",
+   },
+   {
+      name: "restaurant landing",
+      description:
+         "The Restaurant Landing website exhibits advanced CSS skills and frontend development expertise. With its visually stunning and fully responsive design, it leaves a lasting impression on visitors. The integration of components like an image carousel and video enhances the user experience, benefiting businesses seeking an impressive online presence.",
+      tags: ["react", "javascript", "HTML", "CSS", "vercel"],
+      image: restaurantLanding,
+      source_code_link:
+         "https://github.com/GolamHossain9355/restaurant_landing.git",
+      demo_link: "https://restaurant-landing-azure.vercel.app/",
+   },
+   {
       name: "Restaurant Reservation",
       description:
-         "The purpose of this app is to streamline the process of managing reservations and help restaurants increase their revenue. This is a RESTful, client-server based, desktop application that updates all information in real time.",
+         "I developed a restaurant reservation app that significantly improves efficiency and enhances the overall restaurant experience. With real-time functionality and intuitive features, the app simplifies the reservation process, allowing restaurants to effortlessly manage bookings and seat reservations. By streamlining operations, the app saves valuable time and effort, enabling staff to focus on delivering exceptional service. This results in a smoother and more efficient workflow, ultimately enhancing the restaurant's productivity and customer satisfaction.",
       tags: [
-         {
-            name: "react",
-            color: "blue-text-gradient",
-         },
-         {
-            name: "postgreSQL",
-            color: "green-text-gradient",
-         },
-         {
-            name: "bootstrap",
-            color: "pink-text-gradient",
-         },
+         "react",
+         "javascript",
+         "HTML",
+         "CSS",
+         "bootstrap",
+         "node.JS",
+         "postgreSQL",
+         "express",
+         "knex",
+         "mocha",
+         "chai",
+         "vercel",
       ],
       image: resReservation,
       source_code_link:
@@ -232,20 +320,20 @@ const projects = [
    {
       name: "Flashcard",
       description:
-         "This app allows users to create decks of flashcards for various topics. The aim of this app is to encourage users to study by creating their own flashcards and quizzes.",
+         "My flashcard app is designed to significantly enhance the student studying process. With its intuitive user interface and advanced functionality, students can create, customize, and adapt their decks to suit their learning objectives. By utilizing the app's efficient studying features, students can effectively prepare for tests and lessons, resulting in improved academic performance and a deeper understanding of the subject matter.",
       tags: [
-         {
-            name: "react",
-            color: "blue-text-gradient",
-         },
-         {
-            name: "postgreSQL",
-            color: "green-text-gradient",
-         },
-         {
-            name: "bootstrap",
-            color: "pink-text-gradient",
-         },
+         "react",
+         "javascript",
+         "HTML",
+         "CSS",
+         "bootstrap",
+         "node.JS",
+         "postgreSQL",
+         "express",
+         "knex",
+         "mocha",
+         "chai",
+         "vercel",
       ],
       image: flashCard,
       source_code_link: "https://github.com/GolamHossain9355/Flashcard-App",
@@ -256,11 +344,19 @@ const projects = [
 const testimonials = [
    {
       testimonial:
-         "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+         "Golam's(Rabby's) code is simply amazing. He has a knack for creating stunning landing pages and designing user interfaces that feel intuitive. His attention to detail and commitment to excellence shine through in every project. If you're looking for a genuine and skilled developer, Golam is the one you want. He's the real deal!",
+      name: "Shawn Yang",
+      designation: "CEO",
+      company: "Anthropy",
+      image: "https://ca.slack-edge.com/T01D6803K7T-U01M3CWU2S1-0feffafc0302-512",
+   },
+   {
+      testimonial:
+         "Golam's out-of-the-box thinking and attention to detail are next level. Always one step ahead, anticipating issues and creating killer roadmaps. When it comes to frontend development, Golam's skills are off the charts. Seriously, he's the kind of person you want on your team",
+      name: "Aaron Rabara",
+      designation: "Backend Developer",
+      company: "Anthropy",
+      image: "https://ca.slack-edge.com/T01D6803K7T-U039DQPHY2K-4e55db3ae9ed-512",
    },
 ]
 
