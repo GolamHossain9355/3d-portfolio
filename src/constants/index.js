@@ -40,6 +40,8 @@ import {
    gpt3,
    restaurantLanding,
    amazona,
+   socketIo,
+   ticTacToe,
 } from "../assets"
 
 export const navLinks = [
@@ -157,10 +159,13 @@ const technologies = [
       name: "Docker",
       icon: docker,
    },
-
    {
       name: "Chai",
       icon: chai,
+   },
+   {
+      name: "Socket.Io",
+      icon: socketIo,
    },
    {
       name: "Firebase",
@@ -258,7 +263,7 @@ const projects = [
    {
       name: "amazona",
       description:
-         "I developed the GPT3 app as a showcase of my exceptional CSS skills and proficiency in frontend development. With a focus on creating visually stunning and responsive website pages, the app demonstrates my ability to craft captivating user interfaces with a wide range of components. By seamlessly integrating beautiful designs and seamless interactions, the app highlights my talent for creating engaging and immersive user experiences. Through meticulous attention to detail and a deep understanding of CSS, I have established myself as a frontend developer capable of delivering visually impressive and highly functional websites.",
+         "The e-commerce app Amazona showcases the power of Next.js, NextAuth, and MongoDB to deliver a seamless shopping experience. With features like authentication, secure routing, multistep forms, and efficient storage of profile and order information, Amazona enables businesses to streamline their operations and provide a secure platform for customers. Additionally, the integration of PayPal checkout ensures a secure and reliable purchase system, further enhancing the trust and convenience for users. Its use of session storage for cart information, requirement of authentication headers, and comprehensive error handling contribute to its overall efficiency and reliability.",
       tags: [
          "nextJS",
          "nextAuth.JS",
@@ -275,13 +280,22 @@ const projects = [
       demo_link: "https://amazona-amber.vercel.app/",
    },
    {
-      name: "GPT3",
+      name: "Tic Tac Toe",
       description:
-         "I developed the GPT3 app as a showcase of my exceptional CSS skills and proficiency in frontend development. With a focus on creating visually stunning and responsive website pages, the app demonstrates my ability to craft captivating user interfaces with a wide range of components. By seamlessly integrating beautiful designs and seamless interactions, the app highlights my talent for creating engaging and immersive user experiences. Through meticulous attention to detail and a deep understanding of CSS, I have established myself as a frontend developer capable of delivering visually impressive and highly functional websites.",
-      tags: ["react", "javascript", "HTML", "CSS", "vercel"],
-      image: gpt3,
-      source_code_link: "https://github.com/GolamHossain9355/gpt3_hossain.git",
-      demo_link: "https://gpt3-hossain.vercel.app/",
+         "Experience the thrill of the Tic Tac Toe game developed with TypeScript and Socket.IO, a testament to advanced frontend development skills. Leveraging TypeScript's strong typing capabilities, this game ensures code reliability and scalability. The integration of Socket.IO enables real-time multiplayer functionality, fostering seamless competition among players. With its user-friendly interface, smooth gameplay mechanics, and responsive design, the game guarantees an immersive experience on various devices. Through meticulous attention to detail, comprehensive error handling, and robust data synchronization, this Tic Tac Toe game delivers a polished and professional gaming experience.",
+      tags: [
+         "react",
+         "typescript",
+         "socket.io",
+         "HTML",
+         "styled-components",
+         "node.JS",
+         "express",
+         "vercel",
+      ],
+      image: ticTacToe,
+      source_code_link: "https://github.com/GolamHossain9355/tic_tac_toe.git",
+      demo_link: "https://tic-tac-3r7zji7j0-golamhossain9355.vercel.app",
    },
    {
       name: "restaurant landing",
@@ -292,6 +306,15 @@ const projects = [
       source_code_link:
          "https://github.com/GolamHossain9355/restaurant_landing.git",
       demo_link: "https://restaurant-landing-azure.vercel.app/",
+   },
+   {
+      name: "GPT3",
+      description:
+         "I developed the GPT3 app as a showcase of my exceptional CSS skills and proficiency in frontend development. With a focus on creating visually stunning and responsive website pages, the app demonstrates my ability to craft captivating user interfaces with a wide range of components. By seamlessly integrating beautiful designs and seamless interactions, the app highlights my talent for creating engaging and immersive user experiences. Through meticulous attention to detail and a deep understanding of CSS, I have established myself as a frontend developer capable of delivering visually impressive and highly functional websites.",
+      tags: ["react", "javascript", "HTML", "CSS", "vercel"],
+      image: gpt3,
+      source_code_link: "https://github.com/GolamHossain9355/gpt3_hossain.git",
+      demo_link: "https://gpt3-hossain.vercel.app/",
    },
    {
       name: "Restaurant Reservation",

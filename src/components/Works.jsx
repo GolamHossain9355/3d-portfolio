@@ -28,11 +28,17 @@ const ProjectCard = ({
          variants={fadeIn("up", "spring", index * 0.5, 0.75)}
       >
          <div className="relative w-full h-[230px]">
-            <img
-               className="w-full h-full object-cover rounded-2xl"
-               src={image}
-               alt={name}
-            />
+            <div
+               className="w-full h-full cursor-pointer"
+               onClick={() => window.open(demo_link, "_blank")}
+            >
+               <img
+                  className="w-full h-full object-cover rounded-2xl z-50"
+                  src={image}
+                  alt={name}
+               />
+            </div>
+
             <div className="absolute inset-0 flex justify-end m-3 card-img_hover gap-1">
                <div
                   className="black-gradient w-10 h-10 rounded-full flex 

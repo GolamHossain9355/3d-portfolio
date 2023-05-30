@@ -38,6 +38,7 @@ import restApi from "./tech/rest-api.png"
 import threeJS from "./tech/threejs.svg"
 import nextJS from "./tech/nextjs.png"
 import nextAuth from "./tech/nextauth.png"
+import socketIo from "./tech/socket-io.png"
 
 // companies
 import meta from "./company/meta.png"
@@ -50,8 +51,11 @@ import flashCard from "./projectImages/flashcard.png"
 import gpt3 from "./projectImages/gpt3.png"
 import restaurantLanding from "./projectImages/restaurant-landing.png"
 import amazona from "./projectImages/amazona.png"
+import ticTacToe from "./projectImages/tictactoe.PNG"
 
 export {
+   ticTacToe,
+   socketIo,
    amazona,
    restaurantLanding,
    gpt3,
