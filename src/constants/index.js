@@ -295,7 +295,7 @@ const projects = [
       ],
       image: ticTacToe,
       source_code_link: "https://github.com/GolamHossain9355/tic_tac_toe.git",
-      demo_link: "https://tic-tac-3r7zji7j0-golamhossain9355.vercel.app",
+      demo_link: "https://tic-tac-toe-three-kohl.vercel.app",
    },
    {
       name: "restaurant landing",
