@@ -51,7 +51,7 @@ import flashCard from "./projectImages/flashcard.png"
 import gpt3 from "./projectImages/gpt3.png"
 import restaurantLanding from "./projectImages/restaurant-landing.png"
 import amazona from "./projectImages/amazona.png"
-import ticTacToe from "./projectImages/tictactoe.PNG"
+import ticTacToe from "./projectImages/tictactoe.png"
 
 export {
    ticTacToe,
