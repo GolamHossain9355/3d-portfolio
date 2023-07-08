@@ -223,7 +223,7 @@ const experiences = [
       company_name: "Thinkful",
       icon: thinkful,
       iconBg: "black",
-      date: "Nov 2021 - April 2022",
+      date: "Feb 2020 - June 2020",
       points: [
          "Developing and maintaining web applications using React.js and other related technologies.",
          "Learned industry best practices and software development standards focusing on HTML5, CSS3, JavaScript, jQuery, Node.js, and React.",
@@ -238,7 +238,7 @@ const experiences = [
       company_name: "Anthropy",
       icon: anthropy,
       iconBg: "#E6DEDD",
-      date: "June 2022 - Present",
+      date: "Aug 2020 - Present",
       points: [
          "Rewrote HTML to meet industry standards for SEO and Accessibility.",
          "Tested, debugged, and shipped 10s of 1000s of lines of code to the development team.",
