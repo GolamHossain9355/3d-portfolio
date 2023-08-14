@@ -52,7 +52,7 @@ import gpt3 from "./projectImages/gpt3.png"
 import restaurantLanding from "./projectImages/restaurant-landing.png"
 import amazona from "./projectImages/amazona.png"
 import ticTacToe from "./projectImages/tictactoe.png"
-import gogolDocs from "./projectImages/gogol-docs.png"
+import gogolDocs from "./projectImages/gogolDocs.png"
 
 export {
    ticTacToe,
