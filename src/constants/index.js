@@ -27,8 +27,6 @@ import {
    git,
    thinkful,
    anthropy,
-   flashCard,
-   resReservation,
    figma,
    docker,
    chai,
