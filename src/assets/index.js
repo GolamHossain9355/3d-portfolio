@@ -46,15 +46,18 @@ import shopify from "./company/shopify.png"
 import anthropy from "./company/logo-small.svg"
 import thinkful from "./company/thinkful.png"
 
+// project images
 import resReservation from "./projectImages/res-reservation.png"
 import flashCard from "./projectImages/flashcard.png"
 import gpt3 from "./projectImages/gpt3.png"
 import restaurantLanding from "./projectImages/restaurant-landing.png"
 import amazona from "./projectImages/amazona.png"
 import ticTacToe from "./projectImages/tictactoe.png"
+import gogolDocs from "./projectImages/gogol-docs.PNG"
 
 export {
    ticTacToe,
+   gogolDocs,
    socketIo,
    amazona,
    restaurantLanding,

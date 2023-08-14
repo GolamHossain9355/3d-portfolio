@@ -42,6 +42,7 @@ import {
    amazona,
    socketIo,
    ticTacToe,
+   gogolDocs,
 } from "../assets"
 
 export const navLinks = [
@@ -261,6 +262,25 @@ const experiences = [
 
 const projects = [
    {
+      name: "gogol docs",
+      description:
+         "A Google Docs clone project that allows users to create and collaborate on documents in real time.",
+      tags: [
+         "react.js",
+         "typescript",
+         "tailwind",
+         "nodeJS",
+         "firebase-auth",
+         "firebase-storage",
+         "vercel",
+         "socket.io",
+         "react-quill",
+      ],
+      image: gogolDocs,
+      source_code_link: "https://github.com/GolamHossain9355/gogol-docs.git",
+      demo_link: "https://gogol-docs.vercel.app",
+   },
+   {
       name: "amazona",
       description:
          "The e-commerce app Amazona showcases the power of Next.js, NextAuth, and MongoDB to deliver a seamless shopping experience. With features like authentication, secure routing, multistep forms, and efficient storage of profile and order information, Amazona enables businesses to streamline their operations and provide a secure platform for customers. Additionally, the integration of PayPal checkout ensures a secure and reliable purchase system, further enhancing the trust and convenience for users. Its use of session storage for cart information, requirement of authentication headers, and comprehensive error handling contribute to its overall efficiency and reliability.",
@@ -315,52 +335,6 @@ const projects = [
       image: gpt3,
       source_code_link: "https://github.com/GolamHossain9355/gpt3_hossain.git",
       demo_link: "https://gpt3-hossain.vercel.app/",
-   },
-   {
-      name: "Restaurant Reservation",
-      description:
-         "I developed a restaurant reservation app that significantly improves efficiency and enhances the overall restaurant experience. With real-time functionality and intuitive features, the app simplifies the reservation process, allowing restaurants to effortlessly manage bookings and seat reservations. By streamlining operations, the app saves valuable time and effort, enabling staff to focus on delivering exceptional service. This results in a smoother and more efficient workflow, ultimately enhancing the restaurant's productivity and customer satisfaction.",
-      tags: [
-         "react",
-         "javascript",
-         "HTML",
-         "CSS",
-         "bootstrap",
-         "node.JS",
-         "postgreSQL",
-         "express",
-         "knex",
-         "mocha",
-         "chai",
-         "vercel",
-      ],
-      image: resReservation,
-      source_code_link:
-         "https://github.com/GolamHossain9355/restaurant-reservation",
-      demo_link:
-         "https://restaurant-reservations-front-end-two.vercel.app/dashboard",
-   },
-   {
-      name: "Flashcard",
-      description:
-         "My flashcard app is designed to significantly enhance the student studying process. With its intuitive user interface and advanced functionality, students can create, customize, and adapt their decks to suit their learning objectives. By utilizing the app's efficient studying features, students can effectively prepare for tests and lessons, resulting in improved academic performance and a deeper understanding of the subject matter.",
-      tags: [
-         "react",
-         "javascript",
-         "HTML",
-         "CSS",
-         "bootstrap",
-         "node.JS",
-         "postgreSQL",
-         "express",
-         "knex",
-         "mocha",
-         "chai",
-         "vercel",
-      ],
-      image: flashCard,
-      source_code_link: "https://github.com/GolamHossain9355/Flashcard-App",
-      demo_link: "https://flash-card-frontend.vercel.app/",
    },
 ]
 
