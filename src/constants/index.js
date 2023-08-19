@@ -300,7 +300,7 @@ const projects = [
    {
       name: "Tic Tac Toe",
       description:
-         "Crafted an engaging multiplayer Tic-Tac-Toe experience with dynamic animations, competitive gameplay, and a user-friendly interface, enhancing the classic game with a touch of excitement.",
+         "An engaging multiplayer Tic-Tac-Toe experience with dynamic animations, competitive gameplay, and a user-friendly interface, enhancing the classic game with a touch of excitement.",
       tags: [
          "react",
          "typescript",
