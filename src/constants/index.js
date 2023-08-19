@@ -281,7 +281,7 @@ const projects = [
    {
       name: "amazona",
       description:
-         "The e-commerce app Amazona showcases the power of Next.js, NextAuth, and MongoDB to deliver a seamless shopping experience. With features like authentication, secure routing, multistep forms, and efficient storage of profile and order information, Amazona enables businesses to streamline their operations and provide a secure platform for customers. Additionally, the integration of PayPal checkout ensures a secure and reliable purchase system, further enhancing the trust and convenience for users. Its use of session storage for cart information, requirement of authentication headers, and comprehensive error handling contribute to its overall efficiency and reliability.",
+         "An e-commerce platform that enables users to explore, purchase, and manage a diverse range of products.",
       tags: [
          "nextJS",
          "nextAuth.JS",
@@ -300,7 +300,7 @@ const projects = [
    {
       name: "Tic Tac Toe",
       description:
-         "Experience the thrill of the Tic Tac Toe game developed with TypeScript and Socket.IO, a testament to advanced frontend development skills. Leveraging TypeScript's strong typing capabilities, this game ensures code reliability and scalability. The integration of Socket.IO enables real-time multiplayer functionality, fostering seamless competition among players. With its user-friendly interface, smooth gameplay mechanics, and responsive design, the game guarantees an immersive experience on various devices. Through meticulous attention to detail, comprehensive error handling, and robust data synchronization, this Tic Tac Toe game delivers a polished and professional gaming experience.",
+         "Crafted an engaging multiplayer Tic-Tac-Toe experience with dynamic animations, competitive gameplay, and a user-friendly interface, enhancing the classic game with a touch of excitement.",
       tags: [
          "react",
          "typescript",
