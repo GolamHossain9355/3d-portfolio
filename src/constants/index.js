@@ -318,21 +318,12 @@ const projects = [
    {
       name: "restaurant landing",
       description:
-         "The Restaurant Landing website exhibits advanced CSS skills and frontend development expertise. With its visually stunning and fully responsive design, it leaves a lasting impression on visitors. The integration of components like an image carousel and video enhances the user experience, benefiting businesses seeking an impressive online presence.",
+         "'Restaurant Landing' exemplifies expertly crafted CSS styling, delivering a visually captivating restaurant landing page. Through meticulous design, engaging animations, and thoughtfully organized sections, the project showcases a high level of proficiency in CSS techniques, elevating the art of web aesthetics.",
       tags: ["react", "javascript", "HTML", "CSS", "vercel"],
       image: restaurantLanding,
       source_code_link:
          "https://github.com/GolamHossain9355/restaurant_landing.git",
       demo_link: "https://restaurant-landing-azure.vercel.app/",
-   },
-   {
-      name: "GPT3",
-      description:
-         "I developed the GPT3 app as a showcase of my exceptional CSS skills and proficiency in frontend development. With a focus on creating visually stunning and responsive website pages, the app demonstrates my ability to craft captivating user interfaces with a wide range of components. By seamlessly integrating beautiful designs and seamless interactions, the app highlights my talent for creating engaging and immersive user experiences. Through meticulous attention to detail and a deep understanding of CSS, I have established myself as a frontend developer capable of delivering visually impressive and highly functional websites.",
-      tags: ["react", "javascript", "HTML", "CSS", "vercel"],
-      image: gpt3,
-      source_code_link: "https://github.com/GolamHossain9355/gpt3_hossain.git",
-      demo_link: "https://gpt3-hossain.vercel.app/",
    },
 ]
 
