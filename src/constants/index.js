@@ -35,7 +35,6 @@ import {
    paypal,
    cyclic,
    nextAuth,
-   gpt3,
    restaurantLanding,
    amazona,
    socketIo,
