@@ -40,6 +40,7 @@ import {
    socketIo,
    ticTacToe,
    gogolDocs,
+   gogolDrive,
 } from "../assets"
 
 export const navLinks = [
@@ -261,14 +262,14 @@ const projects = [
    {
       name: "gogol docs",
       description:
-         "A Google Docs clone project that allows users to create and collaborate on documents in real time.",
+         "Dive into collaborative document editing with the Google Docs Clone, merging React, Firebase, and Socket.io to deliver real-time teamwork. Witness seamless text editing, simultaneous contributions, and secure data persistence for an engaging and productive experience.",
       tags: [
          "react.js",
          "typescript",
          "tailwind",
          "nodeJS",
          "firebase-auth",
-         "firebase-storage",
+         "firebase-firestore",
          "vercel",
          "socket.io",
          "react-quill",
@@ -278,9 +279,27 @@ const projects = [
       demo_link: "https://gogol-docs.vercel.app",
    },
    {
+      name: "gogol drive",
+      description:
+         "Experience a dynamic file management system with the Google Drive Clone project, showcasing seamless integration of React and Firebase technologies. Explore a versatile interface for organized folder structures, nested arrangements, and efficient file sharing capabilities.",
+      tags: [
+         "react.js",
+         "typescript",
+         "bootstrap",
+         "nodeJS",
+         "firebase-auth",
+         "firebase-firestore",
+         "firebase-storage",
+         "vercel",
+      ],
+      image: gogolDrive,
+      source_code_link: "https://github.com/GolamHossain9355/gogol-drive.git",
+      demo_link: "https://gogol-drive.vercel.app",
+   },
+   {
       name: "amazona",
       description:
-         "An e-commerce platform that enables users to explore, purchase, and manage a diverse range of products.",
+         "Embark on a shopping journey with Amazona, a dynamic e-commerce platform powered by React and Node.js. Explore a vast selection of products, intuitive shopping carts, and secure checkout processes. Elevate your online shopping experience with Amazona's responsive design and user-friendly features.",
       tags: [
          "nextJS",
          "nextAuth.JS",

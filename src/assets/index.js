@@ -53,8 +53,10 @@ import restaurantLanding from "./projectImages/restaurant-landing.png"
 import amazona from "./projectImages/amazona.png"
 import ticTacToe from "./projectImages/tictactoe.png"
 import gogolDocs from "./projectImages/gogolDocs.png"
+import gogolDrive from "./projectImages/gogolDrive.png"
 
 export {
+   gogolDrive,
    ticTacToe,
    gogolDocs,
    socketIo,
