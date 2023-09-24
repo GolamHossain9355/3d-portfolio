@@ -8,7 +8,7 @@ const Tech = () => {
       <div className="container flex flex-row flex-wrap justify-center gap-10">
          {technologies.map((tech, index) => (
             <motion.div key={tech.name}
-               variants={fadeIn("right", "spring", 0.05 * index, 0.55)}
+               variants={fadeIn("right", "spring", 0.05 * index, 0.75)}
             >
                <div className="w-32 h-32 flex justify-center items-center relative bg-tertiary
                rounded-xl shadow-md shadow-primary border-y-4 border-x-2 border-purple-950 
